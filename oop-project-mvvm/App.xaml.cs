@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace oop_project_mvvm {
+namespace OopProjectMvvm {
 	/// <summary>
 	/// Interaction logic for App.xaml
 	/// </summary>

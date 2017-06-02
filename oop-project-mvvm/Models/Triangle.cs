@@ -21,7 +21,9 @@ namespace OopProjectMvvm.Models {
 
 		public Triangle() {
 			Vertexes = new Vertex[3];
-			Color = MyColors["Black"];
+            for (int i = 0; i < Vertexes.Length; i++)
+                Vertexes[i] = new Vertex();
+			Color = MyColors["White"];
 		}
 
 		public Triangle(Vertex vertex1, Vertex vertex2, Vertex vertex3, MyColor color) {
